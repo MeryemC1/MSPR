@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/e6aa2aa702f04d86a700ecdadc1c1660"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding">
+
+
+    </FrameLayout>
+
+
+
+    <EditText
+        android:id="@+id/Logintv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Identifiant "
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <EditText
+        android:id="@+id/MDPtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <Button
+        android:id="@+id/LogBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
